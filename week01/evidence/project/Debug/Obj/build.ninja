@@ -1,4 +1,4 @@
-#Generating source browse information for project pr1
+#Generating source browse information for project week01
 
 
 #Abbreviations
@@ -21,7 +21,7 @@ rule browsedata
 
 #Build steps
 build main.pbi : index main.xcl
-build pr1.pbd : link main.pbi
-build pr1.pbw : browsedata pr1.pbd
+build week01.pbd : link main.pbi
+build week01.pbw : browsedata week01.pbd
 
 
