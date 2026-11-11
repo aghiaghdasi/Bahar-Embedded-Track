@@ -20,8 +20,5 @@ rule browsedata
 
 
 #Build steps
-build main.pbi : index main.xcl
-build pr2.pbd : link main.pbi
-build pr2.pbw : browsedata pr2.pbd
 
 
