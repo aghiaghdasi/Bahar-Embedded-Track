@@ -40,13 +40,12 @@ int main() {
 //    int mask = rand() % (1 << 8);
     uint8_t x;
     uint8_t mask;
-    scanf("%hhu", &x);
     uint8_t T = 3;
     while(T--)
     {
       char c;
       printf("s:set    t:toggle       c:clear       q:test");
-      scanf(" %c %hhu", &c, &mask);
+      scanf(" %c %hhu %hhu", &c, &x, &mask);
       if(c == 's') 
       {
           printf("set: "); 
