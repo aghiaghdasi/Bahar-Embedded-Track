@@ -5416,28 +5416,14 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@113@macro@int",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "int",
-    "location": {
-      "column": "9",
-      "line": "7",
-      "path": "C:\\D\\Bahar-Embedded-Track\\week02\\main.c"
-    },
-    "name": "int",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
     "ID": "c:@F@set_bits",
     "What": "Function",
     "defdec": "Def",
     "display": "uint8_t set_bits(uint8_t, uint8_t)",
     "location": {
-      "column": "5",
-      "line": "9",
-      "path": "C:\\D\\Bahar-Embedded-Track\\week02\\main.c"
+      "column": "9",
+      "line": "7",
+      "path": "C:\\D\\Bahar-Embedded-Track\\week02\\project\\main.c"
     },
     "name": "set_bits",
     "origin": "project_file",
@@ -5449,9 +5435,9 @@
     "defdec": "Def",
     "display": "uint8_t clear_bits(uint8_t, uint8_t)",
     "location": {
-      "column": "5",
-      "line": "13",
-      "path": "C:\\D\\Bahar-Embedded-Track\\week02\\main.c"
+      "column": "9",
+      "line": "11",
+      "path": "C:\\D\\Bahar-Embedded-Track\\week02\\project\\main.c"
     },
     "name": "clear_bits",
     "origin": "project_file",
@@ -5463,9 +5449,9 @@
     "defdec": "Def",
     "display": "uint8_t toggle_bits(uint8_t, uint8_t)",
     "location": {
-      "column": "5",
-      "line": "17",
-      "path": "C:\\D\\Bahar-Embedded-Track\\week02\\main.c"
+      "column": "9",
+      "line": "15",
+      "path": "C:\\D\\Bahar-Embedded-Track\\week02\\project\\main.c"
     },
     "name": "toggle_bits",
     "origin": "project_file",
@@ -5478,8 +5464,8 @@
     "display": "bool test_bits(uint8_t, uint8_t)",
     "location": {
       "column": "6",
-      "line": "21",
-      "path": "C:\\D\\Bahar-Embedded-Track\\week02\\main.c"
+      "line": "19",
+      "path": "C:\\D\\Bahar-Embedded-Track\\week02\\project\\main.c"
     },
     "name": "test_bits",
     "origin": "project_file",
@@ -5492,8 +5478,8 @@
     "display": "void print(uint8_t)",
     "location": {
       "column": "6",
-      "line": "26",
-      "path": "C:\\D\\Bahar-Embedded-Track\\week02\\main.c"
+      "line": "24",
+      "path": "C:\\D\\Bahar-Embedded-Track\\week02\\project\\main.c"
     },
     "name": "print",
     "origin": "project_file",
@@ -5503,139 +5489,237 @@
     "ID": "c:@F@main",
     "What": "Function",
     "defdec": "Def",
-    "display": "uint8_t main(void)",
+    "display": "int main(void)",
     "location": {
       "column": "5",
-      "line": "39",
-      "path": "C:\\D\\Bahar-Embedded-Track\\week02\\main.c"
+      "line": "37",
+      "path": "C:\\D\\Bahar-Embedded-Track\\week02\\project\\main.c"
     },
     "name": "main",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:main.c@671@F@main@x",
+    "ID": "c:main.c@769@F@main@x",
     "What": "Variable",
     "defdec": "Def",
     "display": "x",
     "location": {
-      "column": "9",
+      "column": "13",
       "line": "41",
-      "path": "C:\\D\\Bahar-Embedded-Track\\week02\\main.c"
+      "path": "C:\\D\\Bahar-Embedded-Track\\week02\\project\\main.c"
     },
     "name": "x",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:main.c@703@F@main@mask",
+    "ID": "c:main.c@785@F@main@mask",
     "What": "Variable",
     "defdec": "Def",
     "display": "mask",
     "location": {
-      "column": "9",
+      "column": "13",
       "line": "42",
-      "path": "C:\\D\\Bahar-Embedded-Track\\week02\\main.c"
+      "path": "C:\\D\\Bahar-Embedded-Track\\week02\\project\\main.c"
     },
     "name": "mask",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:DLib_Product.h@161@macro@_DLIB_PRODUCT_H",
+    "ID": "c:main.c@828@F@main@T",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "T",
+    "location": {
+      "column": "13",
+      "line": "44",
+      "path": "C:\\D\\Bahar-Embedded-Track\\week02\\project\\main.c"
+    },
+    "name": "T",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@873@F@main@c",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "c",
+    "location": {
+      "column": "12",
+      "line": "47",
+      "path": "C:\\D\\Bahar-Embedded-Track\\week02\\project\\main.c"
+    },
+    "name": "c",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Threads.h@442@macro@_DLIB_THREADS_H",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "_DLIB_PRODUCT_H",
+    "display": "_DLIB_THREADS_H",
     "location": {
       "column": "9",
-      "line": "7",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Product.h"
+      "line": "17",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Threads.h"
     },
-    "name": "_DLIB_PRODUCT_H",
+    "name": "_DLIB_THREADS_H",
     "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:DLib_Product.h@314@macro@_DLIB_SMALL_TARGET",
+    "ID": "c:DLib_Threads.h@5237@macro@_DLIB_COMPILER_TLS",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "_DLIB_SMALL_TARGET",
+    "display": "_DLIB_COMPILER_TLS",
     "location": {
       "column": "9",
-      "line": "16",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Product.h"
+      "line": "117",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Threads.h"
     },
-    "name": "_DLIB_SMALL_TARGET",
+    "name": "_DLIB_COMPILER_TLS",
     "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:DLib_Product.h@427@macro@_DLIB_STM8ABI_DIFUNC_CONTAINS_OFFSETS",
+    "ID": "c:DLib_Threads.h@5267@macro@_DLIB_TLS_QUAL",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "_DLIB_STM8ABI_DIFUNC_CONTAINS_OFFSETS",
+    "display": "_DLIB_TLS_QUAL",
     "location": {
       "column": "9",
-      "line": "21",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Product.h"
+      "line": "118",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Threads.h"
     },
-    "name": "_DLIB_STM8ABI_DIFUNC_CONTAINS_OFFSETS",
+    "name": "_DLIB_TLS_QUAL",
     "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:DLib_Product.h@539@macro@_FLOATING_LESS_INLINES",
+    "ID": "c:DLib_Threads.h@5366@macro@_DLIB_MULTI_THREAD",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "_FLOATING_LESS_INLINES",
+    "display": "_DLIB_MULTI_THREAD",
     "location": {
-      "column": "9",
-      "line": "26",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Product.h"
+      "column": "11",
+      "line": "124",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Threads.h"
     },
-    "name": "_FLOATING_LESS_INLINES",
+    "name": "_DLIB_MULTI_THREAD",
     "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:DLib_Product.h@633@macro@_DLIB_SMALL_FP_HELPERS",
+    "ID": "c:DLib_Threads.h@5398@macro@_DLIB_GLOBAL_VARIABLES",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "_DLIB_SMALL_FP_HELPERS",
+    "display": "_DLIB_GLOBAL_VARIABLES",
     "location": {
-      "column": "9",
-      "line": "31",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Product.h"
+      "column": "11",
+      "line": "125",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Threads.h"
     },
-    "name": "_DLIB_SMALL_FP_HELPERS",
+    "name": "_DLIB_GLOBAL_VARIABLES",
     "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:DLib_Product.h@711@macro@__WEAK",
+    "ID": "c:DLib_Threads.h@5434@macro@_DLIB_FILE_OP_LOCKS",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "__WEAK",
+    "display": "_DLIB_FILE_OP_LOCKS",
     "location": {
-      "column": "9",
-      "line": "36",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Product.h"
+      "column": "11",
+      "line": "126",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Threads.h"
     },
-    "name": "__WEAK",
+    "name": "_DLIB_FILE_OP_LOCKS",
     "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:DLib_Product.h@838@macro@_TLS_CONST_DEFINITION",
+    "ID": "c:DLib_Threads.h@T@__iar_Rmtx",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "void *",
+    "location": {
+      "column": "17",
+      "line": "298",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Threads.h"
+    },
+    "name": "__iar_Rmtx",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Threads.h@12644@macro@_MULTI_THREAD",
     "What": "MacroDef",
     "defdec": "Def",
-    "display": "_TLS_CONST_DEFINITION",
+    "display": "_MULTI_THREAD",
     "location": {
       "column": "9",
-      "line": "45",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Product.h"
+      "line": "351",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Threads.h"
     },
-    "name": "_TLS_CONST_DEFINITION",
+    "name": "_MULTI_THREAD",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Threads.h@12686@macro@_GLOBAL_LOCALE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_GLOBAL_LOCALE",
+    "location": {
+      "column": "9",
+      "line": "352",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Threads.h"
+    },
+    "name": "_GLOBAL_LOCALE",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Threads.h@12733@macro@_FILE_OP_LOCKS",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_FILE_OP_LOCKS",
+    "location": {
+      "column": "9",
+      "line": "353",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Threads.h"
+    },
+    "name": "_FILE_OP_LOCKS",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Threads.h@12779@macro@_COMPILER_TLS",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_COMPILER_TLS",
+    "location": {
+      "column": "9",
+      "line": "355",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Threads.h"
+    },
+    "name": "_COMPILER_TLS",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Threads.h@12821@macro@_TLS_QUAL",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_TLS_QUAL",
+    "location": {
+      "column": "9",
+      "line": "356",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Threads.h"
+    },
+    "name": "_TLS_QUAL",
     "origin": "system_include",
     "scope": null
   },
@@ -6552,174 +6636,6 @@
     "scope": null
   },
   {
-    "ID": "c:DLib_Threads.h@442@macro@_DLIB_THREADS_H",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_THREADS_H",
-    "location": {
-      "column": "9",
-      "line": "17",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Threads.h"
-    },
-    "name": "_DLIB_THREADS_H",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Threads.h@5237@macro@_DLIB_COMPILER_TLS",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_COMPILER_TLS",
-    "location": {
-      "column": "9",
-      "line": "117",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Threads.h"
-    },
-    "name": "_DLIB_COMPILER_TLS",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Threads.h@5267@macro@_DLIB_TLS_QUAL",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_TLS_QUAL",
-    "location": {
-      "column": "9",
-      "line": "118",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Threads.h"
-    },
-    "name": "_DLIB_TLS_QUAL",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Threads.h@5366@macro@_DLIB_MULTI_THREAD",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_MULTI_THREAD",
-    "location": {
-      "column": "11",
-      "line": "124",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Threads.h"
-    },
-    "name": "_DLIB_MULTI_THREAD",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Threads.h@5398@macro@_DLIB_GLOBAL_VARIABLES",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_GLOBAL_VARIABLES",
-    "location": {
-      "column": "11",
-      "line": "125",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Threads.h"
-    },
-    "name": "_DLIB_GLOBAL_VARIABLES",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Threads.h@5434@macro@_DLIB_FILE_OP_LOCKS",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_DLIB_FILE_OP_LOCKS",
-    "location": {
-      "column": "11",
-      "line": "126",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Threads.h"
-    },
-    "name": "_DLIB_FILE_OP_LOCKS",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Threads.h@T@__iar_Rmtx",
-    "What": "Typedef",
-    "defdec": "Def",
-    "display": "void *",
-    "location": {
-      "column": "17",
-      "line": "298",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Threads.h"
-    },
-    "name": "__iar_Rmtx",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Threads.h@12644@macro@_MULTI_THREAD",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_MULTI_THREAD",
-    "location": {
-      "column": "9",
-      "line": "351",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Threads.h"
-    },
-    "name": "_MULTI_THREAD",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Threads.h@12686@macro@_GLOBAL_LOCALE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_GLOBAL_LOCALE",
-    "location": {
-      "column": "9",
-      "line": "352",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Threads.h"
-    },
-    "name": "_GLOBAL_LOCALE",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Threads.h@12733@macro@_FILE_OP_LOCKS",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_FILE_OP_LOCKS",
-    "location": {
-      "column": "9",
-      "line": "353",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Threads.h"
-    },
-    "name": "_FILE_OP_LOCKS",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Threads.h@12779@macro@_COMPILER_TLS",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_COMPILER_TLS",
-    "location": {
-      "column": "9",
-      "line": "355",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Threads.h"
-    },
-    "name": "_COMPILER_TLS",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:DLib_Threads.h@12821@macro@_TLS_QUAL",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_TLS_QUAL",
-    "location": {
-      "column": "9",
-      "line": "356",
-      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Threads.h"
-    },
-    "name": "_TLS_QUAL",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
     "ID": "c:ystdio.h@100@macro@_YSTDIO",
     "What": "MacroDef",
     "defdec": "Def",
@@ -6842,6 +6758,104 @@
       "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\xencoding_limits.h"
     },
     "name": "_ENCODING_CUR_MAX",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@161@macro@_DLIB_PRODUCT_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_PRODUCT_H",
+    "location": {
+      "column": "9",
+      "line": "7",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Product.h"
+    },
+    "name": "_DLIB_PRODUCT_H",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@314@macro@_DLIB_SMALL_TARGET",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_SMALL_TARGET",
+    "location": {
+      "column": "9",
+      "line": "16",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Product.h"
+    },
+    "name": "_DLIB_SMALL_TARGET",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@427@macro@_DLIB_STM8ABI_DIFUNC_CONTAINS_OFFSETS",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_STM8ABI_DIFUNC_CONTAINS_OFFSETS",
+    "location": {
+      "column": "9",
+      "line": "21",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Product.h"
+    },
+    "name": "_DLIB_STM8ABI_DIFUNC_CONTAINS_OFFSETS",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@539@macro@_FLOATING_LESS_INLINES",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_FLOATING_LESS_INLINES",
+    "location": {
+      "column": "9",
+      "line": "26",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Product.h"
+    },
+    "name": "_FLOATING_LESS_INLINES",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@633@macro@_DLIB_SMALL_FP_HELPERS",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_DLIB_SMALL_FP_HELPERS",
+    "location": {
+      "column": "9",
+      "line": "31",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Product.h"
+    },
+    "name": "_DLIB_SMALL_FP_HELPERS",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@711@macro@__WEAK",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__WEAK",
+    "location": {
+      "column": "9",
+      "line": "36",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Product.h"
+    },
+    "name": "__WEAK",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:DLib_Product.h@838@macro@_TLS_CONST_DEFINITION",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_TLS_CONST_DEFINITION",
+    "location": {
+      "column": "9",
+      "line": "45",
+      "path": "C:\\Program Files (x86)\\IAR Systems\\Embedded Workbench 8.3\\stm8\\inc\\c\\DLib_Product.h"
+    },
+    "name": "_TLS_CONST_DEFINITION",
     "origin": "system_include",
     "scope": null
   },

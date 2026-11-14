@@ -1,14 +1,14 @@
-"C:\D\Bahar-Embedded-Track\week02\main.c"
+"C:\D\Bahar-Embedded-Track\week02\project\main.c"
 -std=c99
 -ferror-limit=0
 -fbracket-depth=512
 -MD
 -MF
-C:\D\Bahar-Embedded-Track\week02\Debug\Obj\main.pbi.dep
+C:\D\Bahar-Embedded-Track\week02\project\Debug\Obj\main.pbi.dep
 -o
 main.pbi
 -I
-C:\D\Bahar-Embedded-Track\week02
+C:\D\Bahar-Embedded-Track\week02\project
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\stm8\inc
 -I

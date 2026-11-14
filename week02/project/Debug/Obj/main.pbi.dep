@@ -1,4 +1,4 @@
-main.pbi: C:\D\Bahar-Embedded-Track\week02\main.c \
+main.pbi: C:\D\Bahar-Embedded-Track\week02\project\main.c \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\stdio.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\ycheck.h \
   C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\stm8\inc\c\yvals.h \

@@ -4,26 +4,24 @@
 #include <stdlib.h>
 #include <time.h>
 
-#define int uint8_t
-
-int set_bits(int x, int mask) {
+uint8_t set_bits(uint8_t x, uint8_t mask) {
     return (x | mask);
 }
 
-int clear_bits(int x, int mask) {
+uint8_t clear_bits(uint8_t x, uint8_t mask) {
     return (x & ~mask);
 }
 
-int toggle_bits(int x, int mask) {
+uint8_t toggle_bits(uint8_t x, uint8_t mask) {
     return (x ^ mask);
 }
 
-bool test_bits(int x, int mask) { 
+bool test_bits(uint8_t x, uint8_t mask) { 
     if (x & mask) return true;
     return false;
 }
 
-void print(int x) {
+void print(uint8_t x) {
     if (x == 0) {
         printf("0\n");
         return;
@@ -37,16 +35,39 @@ void print(int x) {
 }
 
 int main() {
-    srand(time(NULL));
-    int x = rand() % (1 << 8);
-    int mask = rand() % (1 << 8);
-    
-    printf("x: "); print(x);
-    printf("mask: "); print(mask);
-    printf("set: "); print(set_bits(x, mask));
-    printf("clear: "); print(clear_bits(x, mask));
-    printf("toggle: "); print(toggle_bits(x, mask));
-    printf("test: %d\n", test_bits(x, mask));
-    
+//    srand(time(NULL));
+//    int x = rand() % (1 << 8);
+//    int mask = rand() % (1 << 8);
+    uint8_t x;
+    uint8_t mask;
+    scanf("%hhu", &x);
+    uint8_t T = 3;
+    while(T--)
+    {
+      char c;
+      printf("s:set    t:toggle       c:clear       q:test");
+      scanf(" %c %hhu", &c, &mask);
+      if(c == 's') 
+      {
+          printf("set: "); 
+          print((x = set_bits(x, mask)));
+      }
+      if(c == 'c') 
+      {
+          printf("clear: "); 
+          print((x = clear_bits(x, mask)));
+      }
+      if(c == 'q')
+      {
+          printf("test: %d\n", test_bits(x, mask));
+      }
+      if(c == 't')
+      {
+          printf("toggle: "); 
+          print((x = toggle_bits(x, mask)));
+      }
+      //printf("x: "); print(x);
+      //printf("mask: "); print(mask);
+    }
     return 0;
 }

@@ -23,9 +23,9 @@
 
 if ($debugfile -eq "")
 {
-& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\D\Bahar-Embedded-Track\week02\settings\pr2.Debug.general.xcl" --backend -f "C:\D\Bahar-Embedded-Track\week02\settings\pr2.Debug.driver.xcl" 
+& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\D\Bahar-Embedded-Track\week02\project\settings\pr2.Debug.general.xcl" --backend -f "C:\D\Bahar-Embedded-Track\week02\project\settings\pr2.Debug.driver.xcl" 
 }
 else
 {
-& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\D\Bahar-Embedded-Track\week02\settings\pr2.Debug.general.xcl" --debug_file=$debugfile --backend -f "C:\D\Bahar-Embedded-Track\week02\settings\pr2.Debug.driver.xcl" 
+& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\D\Bahar-Embedded-Track\week02\project\settings\pr2.Debug.general.xcl" --debug_file=$debugfile --backend -f "C:\D\Bahar-Embedded-Track\week02\project\settings\pr2.Debug.driver.xcl" 
 }
