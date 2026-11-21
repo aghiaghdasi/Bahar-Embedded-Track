@@ -37,12 +37,13 @@ void print(uint8_t x) {
 int main() {
     uint8_t x;
     uint8_t mask;
-    uint8_t T = 3;
+    uint8_t T = 6;
+    scanf(" %hhu", &x);
     while(T--)
     {
       char c = '.';
       printf("\ns:set    t:toggle       c:clear       q:test     b:show binary\n");
-      scanf(" %c %hhu %hhu", &c, &x, &mask);
+      scanf(" %c %hhu", &c, &mask);
       if(c == 's') 
       {
           printf("\nset: "); 

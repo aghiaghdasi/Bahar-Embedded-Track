@@ -25,7 +25,6 @@
             <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
             <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
             <file>$TOOLKIT_DIR$\lib\dlstm8smn.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\time.h</file>
             <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
             <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
         </outputs>
@@ -53,7 +52,7 @@
             <inputs>
                 <tool>
                     <name>ICCSTM8</name>
-                    <file> 21 1 5 15 19 0 13 17 9 12 22 18 16 20</file>
+                    <file> 20 1 5 15 19 0 13 17 9 12 21 18 16</file>
                 </tool>
             </inputs>
         </file>
