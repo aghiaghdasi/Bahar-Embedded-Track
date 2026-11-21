@@ -2,7 +2,6 @@
 #include <stdint.h>
 #include <stdbool.h>
 #include <stdlib.h>
-#include <time.h>
 
 uint8_t set_bits(uint8_t x, uint8_t mask) {
     return (x | mask);
@@ -36,9 +35,6 @@ void print(uint8_t x) {
 
 
 int main() {
-//    srand(time(NULL));
-//    int x = rand() % (1 << 8);
-//    int mask = rand() % (1 << 8);
     uint8_t x;
     uint8_t mask;
     uint8_t T = 3;
@@ -71,8 +67,6 @@ int main() {
         printf("\n0b");
         print(x);
       }
-      //printf("x: "); print(x);
-      //printf("mask: "); print(mask);
     }
     return 0;
 }

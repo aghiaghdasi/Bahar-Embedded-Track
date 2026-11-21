@@ -1,13 +1,13 @@
 ###############################################################################
 #
-# IAR ELF Linker V3.11.1.207 for STM8                     21/Nov/2026  22:01:21
+# IAR ELF Linker V3.11.1.207 for STM8                     21/Nov/2026  22:03:14
 # Copyright 2010-2019 IAR Systems AB.
 #
 #    Output file  =  C:\D\Bahar-Embedded-Track\week02\project\Debug\Exe\pr2.out
 #    Map file     =  
 #        C:\D\Bahar-Embedded-Track\week02\project\Debug\List\pr2.map
 #    Command line =  
-#        -f C:\Users\Etezadi\AppData\Local\Temp\EW5CAB.tmp
+#        -f C:\Users\Etezadi\AppData\Local\Temp\EW1899.tmp
 #        (C:\D\Bahar-Embedded-Track\week02\project\Debug\Obj\main.o --redirect
 #        _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb
 #        --no_out_extension -o
