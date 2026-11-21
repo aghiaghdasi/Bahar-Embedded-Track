@@ -22,8 +22,8 @@ bool test_bits(uint8_t x, uint8_t mask) {
 }
 
 void print(uint8_t x) {
-    uint8_t q;
-    bool c[9];
+    uint8_t q = 0;
+    bool c[11];
     if (x == 0) {
         printf("0\n");
         return;
@@ -47,8 +47,8 @@ int main() {
     uint8_t T = 3;
     while(T--)
     {
-      char c;
-      printf("s:set    t:toggle       c:clear       q:test");
+      char c = '.';
+      printf("s:set    t:toggle       c:clear       q:test     b:show binary");
       scanf(" %c %hhu %hhu", &c, &x, &mask);
       if(c == 's') 
       {
@@ -68,6 +68,11 @@ int main() {
       {
           printf("toggle: "); 
           print((x = toggle_bits(x, mask)));
+      }
+      if(c == 'b')
+      {
+        printf("\n0b");
+        print(x);
       }
       //printf("x: "); print(x);
       //printf("mask: "); print(mask);
