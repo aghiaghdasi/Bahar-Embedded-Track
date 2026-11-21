@@ -24,10 +24,6 @@ bool test_bits(uint8_t x, uint8_t mask) {
 void print(uint8_t x) {
     uint8_t q = 0;
     bool c[11];
-    if (x == 0) {
-        printf("0\n");
-        return;
-    }
     while (x > 0) {
         if (x % 2) c[q++] = true;
         else c[q++] = false;
