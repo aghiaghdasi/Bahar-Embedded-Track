@@ -22,17 +22,21 @@ bool test_bits(uint8_t x, uint8_t mask) {
 }
 
 void print(uint8_t x) {
+    uint8_t q;
+    bool c[9];
     if (x == 0) {
         printf("0\n");
         return;
     }
     while (x > 0) {
-        if (x % 2) printf("1");
-        else printf("0");
+        if (x % 2) c[q++] = true;
+        else c[q++] = false;
         x /= 2;
     }
+    while(q--) printf("%hhu", c[q]);
     printf("\n");
 }
+
 
 int main() {
 //    srand(time(NULL));
