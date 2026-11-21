@@ -33,6 +33,7 @@ void print(uint8_t x) {
         else c[q++] = false;
         x /= 2;
     }
+    for(uint8_t i = 0; i < 8 - q; i++) printf("0");
     while(q--) printf("%hhu", c[q]);
     printf("\n");
 }
@@ -48,25 +49,25 @@ int main() {
     while(T--)
     {
       char c = '.';
-      printf("s:set    t:toggle       c:clear       q:test     b:show binary");
+      printf("\ns:set    t:toggle       c:clear       q:test     b:show binary\n");
       scanf(" %c %hhu %hhu", &c, &x, &mask);
       if(c == 's') 
       {
-          printf("set: "); 
+          printf("\nset: "); 
           print((x = set_bits(x, mask)));
       }
       if(c == 'c') 
       {
-          printf("clear: "); 
+          printf("\nclear: "); 
           print((x = clear_bits(x, mask)));
       }
       if(c == 'q')
       {
-          printf("test: %d\n", test_bits(x, mask));
+          printf("\ntest: %d\n", test_bits(x, mask));
       }
       if(c == 't')
       {
-          printf("toggle: "); 
+          printf("\ntoggle: "); 
           print((x = toggle_bits(x, mask)));
       }
       if(c == 'b')

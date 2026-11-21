@@ -5514,13 +5514,27 @@
     "scope": null
   },
   {
+    "ID": "c:main.c@680@F@print@i",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "i",
+    "location": {
+      "column": "17",
+      "line": "36",
+      "path": "C:\\D\\Bahar-Embedded-Track\\week02\\project\\main.c"
+    },
+    "name": "i",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:@F@main",
     "What": "Function",
     "defdec": "Def",
     "display": "int main(void)",
     "location": {
       "column": "5",
-      "line": "41",
+      "line": "42",
       "path": "C:\\D\\Bahar-Embedded-Track\\week02\\project\\main.c"
     },
     "name": "main",
@@ -5528,13 +5542,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@851@F@main@x",
+    "ID": "c:main.c@904@F@main@x",
     "What": "Variable",
     "defdec": "Def",
     "display": "x",
     "location": {
       "column": "13",
-      "line": "45",
+      "line": "46",
       "path": "C:\\D\\Bahar-Embedded-Track\\week02\\project\\main.c"
     },
     "name": "x",
@@ -5542,13 +5556,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@867@F@main@mask",
+    "ID": "c:main.c@920@F@main@mask",
     "What": "Variable",
     "defdec": "Def",
     "display": "mask",
     "location": {
       "column": "13",
-      "line": "46",
+      "line": "47",
       "path": "C:\\D\\Bahar-Embedded-Track\\week02\\project\\main.c"
     },
     "name": "mask",
@@ -5556,13 +5570,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@886@F@main@T",
+    "ID": "c:main.c@939@F@main@T",
     "What": "Variable",
     "defdec": "Def",
     "display": "T",
     "location": {
       "column": "13",
-      "line": "47",
+      "line": "48",
       "path": "C:\\D\\Bahar-Embedded-Track\\week02\\project\\main.c"
     },
     "name": "T",
@@ -5570,13 +5584,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@931@F@main@c",
+    "ID": "c:main.c@984@F@main@c",
     "What": "Variable",
     "defdec": "Def",
     "display": "c",
     "location": {
       "column": "12",
-      "line": "50",
+      "line": "51",
       "path": "C:\\D\\Bahar-Embedded-Track\\week02\\project\\main.c"
     },
     "name": "c",
